@@ -1,0 +1,64 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(162, 162, 202);
+padding: 250px;
+}
+
+.container {
+background: rgb(110, 110, 138);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+padding: 40px;
+width: 100%;
+max-width: 420px;
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+color: #ffffff;
+}
+
+h2 {
+font-size: 26px;
+font-weight: 600;
+margin-bottom: 28px;
+text-align: center;
+}
+
+.cadastro {
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.cadastro label {
+font-size: 13px;
+font-weight: 500;
+color: #d1d1e0;
+margin-bottom: 8px;
+}
+
+#btn {
+width: 100%;
+padding: 14px;
+margin-top: 10px;
+border: none;
+border-radius: 12px;
+background: rgb(104, 89, 117);
+color: #ffffff;
+font-size: 15px;
+font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+  
+    
